@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2020-07-30T13:16:07.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="lqOo3SLYi5RlIN9Maupg" version="13.5.6" type="github">
+  <diagram id="mq79HPodI-qMUnVJ8zkv" name="Page-1">
+    <mxGraphModel dx="2128" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-5" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="365" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-6" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="365" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-8" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="365" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-10" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=12;" vertex="1" parent="1">
+          <mxGeometry x="580" y="365" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/dompicon-glyph-file-format-2/256/file-jar-format-type-128.png" vertex="1" parent="1">
+          <mxGeometry x="690" y="365" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-13" value="&lt;b&gt;Shared Resources&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-14" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-50" width="450" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-16" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-50" width="450" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-17" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-50" width="450" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-18" value="&lt;b&gt;Predict&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-130" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-19" value="&lt;b&gt;Preprocess&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-130" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-20" value="&lt;b&gt;Train&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-130" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
