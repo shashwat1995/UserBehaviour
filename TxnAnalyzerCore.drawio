@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T13:46:55.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="8VFeRV8VLKvaBrYz8eIs" version="13.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-30T14:16:22.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="GLi5QLBWj4z9dQiqylGZ" version="13.5.6" type="github">
   <diagram id="mq79HPodI-qMUnVJ8zkv" name="Page-1">
     <mxGraphModel dx="2128" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hrdju-AQXvvUvQQoPG_u-17" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-17" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="240" y="-50" width="450" height="340" as="geometry" />
         </mxCell>
         <mxCell id="hrdju-AQXvvUvQQoPG_u-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -149,24 +149,44 @@
         <mxCell id="hrdju-AQXvvUvQQoPG_u-69" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/documents-42/512/document_file_paper_page-12-128.png" vertex="1" parent="1">
           <mxGeometry x="135" y="25" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hrdju-AQXvvUvQQoPG_u-71" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="335" y="-80" width="80" height="40" as="geometry" />
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hrdju-AQXvvUvQQoPG_u-75" target="hrdju-AQXvvUvQQoPG_u-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hrdju-AQXvvUvQQoPG_u-72" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="hrdju-AQXvvUvQQoPG_u-71" parent="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="515" y="-40" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="515" y="-70" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-75" value="Extract Transactions from&amp;nbsp;&lt;br&gt;DataSource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-80" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hrdju-AQXvvUvQQoPG_u-73" value="&lt;br&gt;&lt;br&gt;yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="hrdju-AQXvvUvQQoPG_u-71" parent="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="375" y="20" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="340" y="20" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hrdju-AQXvvUvQQoPG_u-76" target="hrdju-AQXvvUvQQoPG_u-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-76" value="DBSCAN Clustering is performed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-78" value="Write result in NNTrainingData.csv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-80" value="2a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-70" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-81" value="2b" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="65" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-82" value="2c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="195" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-83" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/documents-42/512/document_file_paper_page-12-128.png" vertex="1" parent="1">
+          <mxGeometry x="510" y="-75" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-84" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/cluster-data-group-organize-128.png" vertex="1" parent="1">
+          <mxGeometry x="505.5" y="50" width="19" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-85" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/cluster-data-group-organize-128.png" vertex="1" parent="1">
+          <mxGeometry x="537" y="50" width="13" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-86" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/cluster-data-group-organize-128.png" vertex="1" parent="1">
+          <mxGeometry x="510" y="69" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hrdju-AQXvvUvQQoPG_u-87" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/new-24-128.png;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="185" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
